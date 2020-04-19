@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music app startup</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+	<body>
+		<nav class="navbar">
+			<ul class="nav nav-tabs">
+			  <li class="nav-item">
+			    <a class="nav-link active" href="#home">Home</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#overview">Overview</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#get-started">Get Started</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+			  </li>
+			</ul>
+		</nav>
+		<div class="container d-flex align-items-center h-100 overflow-auto" id="home">
+			<div class="row">
+				<header class ="text-center col 12">
+					<h1 class="text-center text-uppercase"><strong>Welcome to <span>Music App Startup</span> - the ultimate listening experience.</strong></h1>
+				</header>
+				<section class="text-center col-12">
+					<hr>
+					<a href="#overview"><button type="button" class="btn btn-primary btn-xl">What is Music App Startup?</button></a>
+				</section>
+			</div>
+		</div>
+
+		<div class="container d-flex align-items-center h-100 w-100" id="overview">
+			<div class="row">
+				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active musicCarouselImg">
+				      <img src="header.jpg" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+				        <h5>First slide label</h5>
+				        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+				      </div>
+				    </div>
+				    <div class="carousel-item  musicCarouselImg">
+				      <img src="carousel2.jpg" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+				        <h5>Second slide label</h5>
+				        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				      </div>
+				    </div>
+				    <div class="carousel-item  musicCarouselImg">
+				      <img src="carousel3.jpg" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+				        <h5>Third slide label</h5>
+				        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+				      </div>
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+		</div>
+
+		<div class="container d-flex align-items-center h-100 w-100" id="get-started">
+			<div class="row">
+
+				<header class="text-center col 12">
+					<h1>Your sign up form goes here.</h1>
+					<form>
+					  <div class="form-group">
+					    <label for="exampleInputEmail1">Email address</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+					    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					  </div>
+					  <div class="form-group">
+					    <label for="exampleInputPassword1">Password</label>
+					    <input type="password" class="form-control" id="exampleInputPassword1">
+					  </div>
+					  <div class="form-group form-check">
+					    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+					    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+					  </div>
+					  <button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+
+			</div>
+			<img src="signup.jpg" alt ="Woman surrounded by neon instruments" id="signup">
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
+</html>
