@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 	<body>
-		<nav class="navbar">
+		<nav class="navbar col-12">
 			<ul class="nav nav-tabs">
 			  <li class="nav-item">
 			    <a class="nav-link active" href="#home">Home</a>
@@ -40,7 +40,7 @@
 
 		<div class="container d-flex align-items-center h-100 w-100" id="overview">
 			<div class="row">
-				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+				<div id="carouselExampleCaptions" class="carousel slide col-12" data-ride="carousel">
 				  <ol class="carousel-indicators">
 				    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
 				    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -83,25 +83,25 @@
 
 		<div class="container d-flex align-items-center h-100 w-100" id="get-started">
 			<div class="row">
-
-				<header class="text-center col 12">
-					<h1>Your sign up form goes here.</h1>
-					<form>
-					  <div class="form-group">
-					    <label for="exampleInputEmail1">Email address</label>
-					    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-					    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-					  </div>
-					  <div class="form-group">
-					    <label for="exampleInputPassword1">Password</label>
-					    <input type="password" class="form-control" id="exampleInputPassword1">
-					  </div>
-					  <div class="form-group form-check">
-					    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-					    <label class="form-check-label" for="exampleCheck1">Keep me signed in</label>
-					  </div>
-					  <button type="submit" class="btn btn-primary">Submit</button>
-					</form>
+				<header class="text-center col-12">
+					<h1 style="line-height: 1">Sign in now.</h1>
+				</header>
+				<form>
+				  <div class="form-group col-12">
+				    <label for="exampleInputEmail1">Email address</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+				    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputPassword1">Password</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1">
+				  </div>
+				  <div class="form-group form-check">
+				    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+				    <label class="form-check-label" for="exampleCheck1">Keep me signed in</label>
+				  </div>
+				  <button type="submit" class="btn btn-primary">Submit</button>
+				</form>
 
 			</div>
 			<img src="signup.jpg" alt ="Woman surrounded by neon instruments" id="signup">
